@@ -7,8 +7,9 @@ let userQuestion = 'will i get rich'
 
 console.log(`${userName} asked: ${userQuestion}`)
 //random number generator
-let randomNumber = Math.floor(Math.random() * 8);
 
+let randomNumber = Math.floor(Math.random() * 8);
+//magic 8 ball answer generator
 let eightBall = ''
 
 switch (eightBall){
